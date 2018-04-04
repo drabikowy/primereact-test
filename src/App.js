@@ -5,6 +5,7 @@ import 'primereact/resources/themes/omega/theme.css';
 import 'primereact/resources/primereact.min.css';
 import 'font-awesome/css/font-awesome.css';
 import TableExample from './TableExample';
+import TableProductsExample from './TableProductsExample';
 
 class App extends Component {
 
@@ -27,6 +28,9 @@ class App extends Component {
             </div>
 
             <TableExample/>
+            <br/><br/>
+            <TableProductsExample/>
+
           </div>
         );
     }
